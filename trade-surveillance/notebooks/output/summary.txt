@@ -1,0 +1,13 @@
+TRADE SURVEILLANCE DETECTION SUMMARY
+========================================
+
+Total orders analyzed: 5165
+
+Market Manipulation Detection:
+  Spoofing     - TP: 15, FP: 0, FN: 0
+  Wash trading - TP: 80, FP: 0, FN: 0
+
+Insider Trading Detection:
+  TP: 2, FP: 0, FN: 2
+  True insider accounts: [np.str_('INSIDE0'), np.str_('INSIDE1'), np.str_('INSIDE2'), np.str_('INSIDE3')]
+  Flagged accounts:      [np.str_('INSIDE2'), np.str_('INSIDE3')]
